@@ -1,0 +1,51 @@
+*
+body,html{
+    height: 100%;
+}
+
+.Titulo{
+    text-align: center;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: bisque;
+    padding: 30px;
+    
+}
+
+.box select,
+.box label,
+.box input[type="submit"]
+.box input[type="radio"]
+{
+    margin: 10px auto;
+}
+.text
+{
+    background: none;
+    border: solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.caracteristicas
+{
+    padding: 30px;
+    background: none;
+    border-radius: 5px;
+    overflow: visible;
+    white-space: break-spaces;
+
+}

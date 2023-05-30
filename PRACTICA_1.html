@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="Style1.css">
+
+</head>
+<body>
+    <form class="box" action="">
+    <h1 class="Titulo">Formulario</h1>
+
+    <label for="Nombre">Nombre Completo</label>
+    <input class="text" type="text" placeholder="Nombre">
+
+    <label for="Edad">Edad</label>
+    <input class="text" type="text" placeholder="Ingrese su edad">
+
+    <label for="Correo">Correo electrónico</label>
+    <input class="text" type="text"placeholder="correo">
+    
+    <label for="Ocupacion">Ocupacion</label>
+    <select name="Ocupacion" id="">
+        <option value="Seleccionar" hidden>Seleccionar</option>
+        <option value="Maestro">Maestro</option>
+        <option value="Ingeniero">Ingeniero</option>
+        <option value="Doctor">Doctor</option>
+        <option value="Licenciado">Licenciado</option>
+    </select>
+
+    <div class="talla">
+        <label for="Talla">Talla de camiseta:</label>
+            <input type="radio" id="s" name="talla">
+            <label for="s">S</label>
+            <input type="radio" id="m" name="talla">
+            <label for="m">M</label>
+            <input type="radio" id="l" name="talla">
+            <label for="l">L</label>
+            <input type="radio" id="xl" name="talla">
+            <label for="xl">XL</label>
+    </div>
+
+    <label for="Talla">Material de la Tela:</label>
+    <select name="Material" id="">
+        <option value="Selecciona" hidden>Seleccionar</option>
+        <option value="Vegetariano">Algodon</option>
+        <option value="Vegano">Poliester</option>
+        <option value="sin-gluten">Seda</option>
+    </select>
+
+    <label for="caracteristicas">Caracteristicas especiales de la tela</label>
+    <textarea class="caracteristicas" placeholder="Ingresa algunas caracteristicas de la tela" name="car" id="" cols="30" rows="10"></textarea>
+    
+    
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Preferencias</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="vegetariano">Vegetariano</label></td>
+                <td><input type="radio" id="Vegetariano" name="Dieta"></td>
+            </tr>
+            <tr>
+                <td><label for="Vegano">Vegano</label></td>    
+                <td><input type="radio" id="Vegano" name="Dieta"></td>
+            </tr>
+            <tr>
+                <td><label for="sin-gluten">Sin gluten</label></td>
+                <td><input type="radio" id="Sin-gluten" name="Dieta"></td>
+            </tr>
+            <tr>
+                <td><label for="Sin-restricciones">Sin restricciones</label></td>
+                <td><input type="radio" id="Sin-restricciones" name="Dieta"></td>
+            </tr>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </tbody>
+    </table>
+
+    <label for="Califacion">Califique su estadia</label>
+    <select name="Dieta" id="">
+        <option value="Selecciona" hidden>Seleccionar</option>
+        <option value="Bueno">Bueno</option>
+        <option value="Malo">Malo</option>
+        <option value="Regular">Regular</option>
+        
+    </select>
+
+    <input type="submit" name="enviar" id="enviar">
+
+
+
+    </form>
+
+</body>
+</html>

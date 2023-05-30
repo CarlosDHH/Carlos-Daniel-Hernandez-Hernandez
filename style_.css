@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body 
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: linear-gradient(0deg, #1b1e26 6%, #303440 95%);
+    background-color:beige;
+    color: azure;
+}
+.Login{
+    width: 360px;
+    height: 450px;
+    padding: 20px;
+    background: #15171d ;
+    border-radius: 10px;
+    display: grid;
+    position: absolute;
+
+}
+.talla
+{
+    
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}

@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select,
+  input[type="submit"] {
+    width: 340px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+    
+  }
+  .talla
+  {
+    display: flex;
+    justify-content: space-around;
+    
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center center;
+
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
