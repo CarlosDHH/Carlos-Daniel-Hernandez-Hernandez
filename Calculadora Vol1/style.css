@@ -1,0 +1,42 @@
+.img{
+height: 400px;
+width: auto;
+}
+body{
+    display: grid;
+    justify-content: center;
+    
+    border-color: solid gray 2px;
+}
+.container-header{
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+.container-body{
+    display: grid;
+    justify-content: center;
+    background-color:aquamarine;
+}
+    
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:aquamarine;
+}
+.logo{
+    align-items: center;
+    height: 250px;
+    width: auto;
+}
+.subtitle{
+    display: block;
+    align-items: center;
+    background-color: aqua;
+}

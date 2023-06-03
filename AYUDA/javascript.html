@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica JS</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-header">
+        <h1>Practica JS</h1>
+        <img src="src/CSS3_logo.svg.png" alt="Yo" />
+      </div>
+      <div class="container-body">
+        <h2>Calculadora...</h2>
+        <p>
+          <input type="number" name="v1" id="v1" placeholder="Valor 1" onblur="captura1()"/>
+        </p>
+        <p>
+          <input type="number" name="v2" id="v2" placeholder="Valor 2" onblur="captura2()"/>
+        </p>
+        <input type="button" value="+" onclick="sum()" />
+        <input type="button" value="-" onclick="resta()" />
+        <input type="button" value="*" onclick="multiplicacion()" />
+        <input type="button" value="/" onclick="division()" />
+        <h2 id="resultado">El resultado de la... es:...</h2>
+      </div>
+      <div class="container-footer">
+        <h2>footer</h2>
+        <img src="src/CSS3_logo.svg.png" alt="yo" />
+      </div>
+    </div>
+  </body>
+</html>
