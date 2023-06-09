@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica InnerHTML</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./calculo.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-header">
+        <h1>Practica con JS</h1>
+        <img class="img" src="../src/soyese.jpeg" alt="soyese" />
+      </div>
+      <div class="container-body">
+        <h2 class="Subtitle">Calculadora Triangulo</h2>
+        <p>
+          <input type="number" name="v1" id="v1" placeholder="Valor 1" onblur="captura1()"/>
+        </p>
+        <p>
+          <input type="number" name="v2" id="v2" placeholder="Valor 2" onblur="captura2()"/>
+        </p>
+        <p>
+            <input type="number" name="v3" id="v3" placeholder="Valor 3" onblur="captura3()"/>
+        </p>
+        <input type="button" value="Calcular area" onclick="area()" />
+        <input type="button" value="Tipo de Triangulo" onclick="tipoTriangulo()" />
+        <input type="button" value="*" onclick="multiplicacion()" />
+        <input type="button" value="/" onclick="division()" />
+        <p id="resultado"></p>
+      </div>
+      <div class="container-footer">
+        <h2>UTHH</h2>
+        <img class="logo" src="../src/R.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>

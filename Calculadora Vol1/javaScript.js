@@ -1,5 +1,5 @@
 //variables con js var, let, const var nombre nombre=39 nombre="luis"
-var v1=0,v2=0,res, resul, texto=''
+var v1=0,v2=0,v3=0,res, resul, texto=''
 
 function captura1(){
     v1=document.getElementById('v1').value
